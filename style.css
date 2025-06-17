@@ -274,6 +274,7 @@ text-align: center;
   font-weight: 300;
   }
   /* .second-container ended */
+  /* card sec  */
   .card-sec{
     display: flex;
     justify-content: space-around;
@@ -312,3 +313,13 @@ text-align: center;
 font-size: 2rem;
 font-family: "Josefin Sans", sans-serif;
         }
+        /* card sec ended */
+        /* footer started */
+        footer{
+background-color: var(--background-color);
+width: 100%;
+height: 50vh;
+        }
+        
+
+
