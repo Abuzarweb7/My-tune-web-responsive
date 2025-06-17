@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+:root{
+    --purple:#270082;
+    --white:#ffffff;
+    --dark-gray:#282828;
+}
+.nav-items{
+background-color: var(--purple);
+height: 50px;
+color: var(--white);
+display: flex;
+justify-content: space-around;
+align-items: center;
+gap: 280px;
+
+}
+.logo{
+    font-size: 4rem;
+   font-family: "Roboto", sans-serif;
+   font-weight: 800;
+}
+.menu-bar{
+ font-size: 3rem;
+}
+.nav-item{
+    display: flex;
+gap: 90px;
+
+}
+.nav-item a{
+    color: var(--white);
+    font-size: 3rem;
+    text-decoration:none ;
+}
+@media (max-width: 768px) {
+.nav-item {
+    display: none;
+    background-color: var(--background-color);}
+     .menu-bar {
+    display: inline;
+  }
+  
+
+}
+  
