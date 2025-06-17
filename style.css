@@ -6,6 +6,7 @@
   --white: #ffffff;
   --background-color: #270082;
   --btn-color: #ff0000;
+  --btn-hover-color:#000;
 }
 
 * {
@@ -139,3 +140,52 @@ html {
     font-size: 1rem;
   }
 }
+/* sec container ended */
+
+ .music-sec{
+background-color: var(--background-color);
+width: 100%;
+height: 100vh;
+position: relative;
+top: 0;
+left: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+gap: 20px;
+color: var(--white);
+ }
+ .music-sec h1{
+  font-size: 8rem;
+   font-family: "Josefin Sans", sans-serif;
+   font-weight: 400;
+ }
+  .music-sec h2{
+    font-size: 4rem;
+  }
+   .music-sec p{
+    font-size: 2rem;
+     font-family: "Josefin Sans", sans-serif;
+   }
+   .music-sec button{
+    font-size: 2rem;
+    padding: 10px 60px; 
+     font-family: "Josefin Sans", sans-serif;
+     background-color: var(--btn-color);
+    
+   }
+     .music-sec button:hover{
+      background-color:var(--btn-hover-color) ;
+      color: var(
+        --white
+      );
+     }
+     @media(max-width:1024px){
+      .music-sec h1> h2 > h3 > p{
+        font-size: {
+50%
+        }
+      }
+     }
