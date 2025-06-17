@@ -245,4 +245,31 @@ bottom: 12rem;
      font-family: "Josefin Sans", sans-serif;
   }
   /* music-sec completed */
+  /* second contanier */
+  .second-container {
+    background-image: url(video.png);
+    background-size: cover;
+   width: 100%;
+   height: 60vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+  }
+  .second-container-text{
+text-align: center;
+    /* color: var(--white); */
+   
+    color: var(--white);
+  }
+  .second-container-text h2{
+    font-size: 4.5rem;
+    font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  }
+  .second-container-text p {
+    font-size: 3.8rem;
+    font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  }
  
