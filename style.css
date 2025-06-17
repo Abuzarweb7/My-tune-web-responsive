@@ -165,6 +165,11 @@ color: var(--white);
   .music-sec h2{
     font-size: 4rem;
   }
+  .music-sec h4{
+    font-size: 2rem;
+     font-family: "Josefin Sans", sans-serif;
+     font-weight: 300;
+  }
    .music-sec p{
     font-size: 2rem;
      font-family: "Josefin Sans", sans-serif;
@@ -182,10 +187,31 @@ color: var(--white);
         --white
       );
      }
-     @media(max-width:1024px){
+      /* @media(max-width:1024px){
       .music-sec h1> h2 > h3 > p{
-        font-size: {
-50%
-        }
+  font-size: 50%; 
       }
-     }
+     }   */
+        /* music sec ended */
+/* play list sec */
+
+
+
+.play-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.play-list-img
+{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+position: relative;
+bottom: 12rem;
+}
+@media (max-width: 768px) {
+  .play-list-img img {
+   width: 95%;
+  }
+  }
