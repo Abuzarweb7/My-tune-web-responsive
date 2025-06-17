@@ -201,17 +201,48 @@ color: var(--white);
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .play-list-img
 {
+
   display: flex;
   justify-content: center;
   align-items: end;
 position: relative;
 bottom: 12rem;
 }
+.play-list h3{
+    font-size: 4rem;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 500;
+ margin-bottom: 5rem;
+}
+.play-list{
+    font-size: 3rem;
+  text-align: center;
+  padding: 3rem;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 30px;
+  font-weight: 200;
+}
 @media (max-width: 768px) {
   .play-list-img img {
    width: 95%;
   }
   }
+  @media(max-width:768px){
+    div img{
+      width: 95%;
+    }
+  }
+  div>button{
+    padding: 13px 30px;
+    background-color: var(--background-color);
+    color: var(--white);
+    font-size: 1.5rem; 
+     font-family: "Josefin Sans", sans-serif;
+  }
+  /* music-sec completed */
+ 
