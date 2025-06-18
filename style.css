@@ -7,7 +7,7 @@
   --background-color: #270082;
   --btn-color: #ff0000;
   --btn-hover-color:#000;
-  
+  --second--container--foter:#281154; 
 }
 
 * {
@@ -144,7 +144,7 @@ html {
 /* sec container ended */
 
  .music-sec{
-background-color: var(--background-color);
+background-color: var(--second--container--foter);
 width: 100%;
 height: 100vh;
 position: relative;
@@ -315,11 +315,109 @@ font-family: "Josefin Sans", sans-serif;
         }
         /* card sec ended */
         /* footer started */
+        /* foter sec started */
         footer{
-background-color: var(--background-color);
+background-color: var(--second--container--foter);
 width: 100%;
 height: 50vh;
         }
         
 
 
+
+
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  .footer-section {
+    flex: 1 1 200px;
+    margin: 20px;
+  }
+
+  .footer-section h1 {
+    font-size: 4rem;
+    margin: 20px 0 10px;
+    position: relative;
+    padding: 8px 0;
+    color: var(--white);
+      font-family: "Josefin Sans", sans-serif;
+   font-weight: 300;
+    border-bottom: 2px solid var(--white);
+    width: fit-content;
+  }
+
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-section ul li {
+    margin-bottom: 8px;
+  }
+
+  .footer-section ul li  {
+color: var(--white);
+    font-size: 2rem;   
+     font-family: "Josefin Sans", sans-serif;
+     font-weight: 300;
+  }
+
+ 
+  /* Responsive */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: row;
+      align-items: center;
+    }}
+    .footer-section {
+      margin: 15px 0;
+      width: 100%;
+      max-width: 400px;
+    }
+    @media (max-width: 377px) {
+  html {
+    font-size: 20%;
+  }
+}
+@media (max-width: 533px) {
+  html {
+    font-size: 25%;
+  }
+}
+@media (max-width: 745px) {
+  html {
+    font-size: 35%;
+  }
+  .footer {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1035px) {
+  html {
+    font-size: 50%;
+  }
+}
+/* foter sec ended */
+/* foter bottum sec start*/
+ .footer-bottum {
+ 
+ height: 55px;
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+/* margin-top: 11rem; */
+ }
+ .footer-bottum p{
+  font-size: 2.5rem;
+  color: var(--white);
+  
+ }
